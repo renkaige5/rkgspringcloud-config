@@ -1,0 +1,14 @@
+spring: 
+  profiles:
+    active:
+    -dev
+---
+spring:
+  profiles: dev
+  application:
+    name: rkgspringcloud-config-dev
+---
+spring:
+  profiles: test
+  application:
+    name: rkgspringcloud-config-test
